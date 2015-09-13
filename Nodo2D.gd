@@ -8,8 +8,13 @@ var cont=25
 var n
 func _ready():
 	n=get_node("HSlider")
-
-
+	set_fixed_process(true)
+	
+func _fixed_process(delta):
+	if(cont==50):
+		print("blue won")
+	if(cont==0):
+		print("Red won")
 
 
 func _on_TextureButton_pressed():
@@ -23,3 +28,13 @@ func _on_TextureButton_2_pressed():
 	cont=cont-1
 	n.set_val(cont)
 	pass # replace with function body
+
+
+func _on_TouchScreenButton_pressed():
+	cont=cont+1
+	n.set_val(cont)
+
+
+func _on_TouchScreenButton_2_pressed():
+	cont=cont-1
+	n.set_val(cont)
