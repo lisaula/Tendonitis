@@ -16,7 +16,10 @@ func _on_TextureButton_pressed():
 	cont=cont+1
 	print(cont)
 	n.set_val(cont)
+	
 
 
-func _on_HSlider_value_changed( value ):
-	pass
+func _on_TextureButton_2_pressed():
+	cont=cont-1
+	n.set_val(cont)
+	pass # replace with function body
