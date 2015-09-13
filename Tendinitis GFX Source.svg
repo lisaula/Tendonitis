@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2012499"
-     inkscape:cx="-1474.6876"
-     inkscape:cy="2719.1017"
+     inkscape:zoom="0.30031248"
+     inkscape:cx="-1907.57"
+     inkscape:cy="3774.4824"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -263,6 +263,39 @@
        inkscape:collect="always"
        xlink:href="#linearGradient111815"
        id="radialGradient4386"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1193595,0,0,1.1193595,-321.11788,-841.74349)"
+       cx="1348.6521"
+       cy="42.522583"
+       fx="1348.6521"
+       fy="42.522583"
+       r="43.56361" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient111783"
+       id="radialGradient4426"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4587056,0,0,1.4587056,-781.5953,-854.27631)"
+       cx="1350.5836"
+       cy="41.222073"
+       fx="1350.5836"
+       fy="41.222073"
+       r="97.967461" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient111783"
+       id="radialGradient4428"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-162.07504,-835.36751)"
+       cx="1350.5836"
+       cy="41.222073"
+       fx="1350.5836"
+       fy="41.222073"
+       r="97.967461" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient111815"
+       id="radialGradient4430"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.1193595,0,0,1.1193595,-321.11788,-841.74349)"
        cx="1348.6521"
@@ -1178,6 +1211,64 @@
            x="-1448.9297"
            id="tspan4380"
            sodipodi:role="line">champions</tspan></text>
+    </g>
+    <rect
+       y="-3047.2888"
+       x="-2481.1697"
+       height="600"
+       width="800"
+       id="rect4406"
+       style="opacity:1;fill:#ea4740;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="matrix(2.5243491,0,0,2.5243491,-5469.7906,-401.9439)"
+       id="g4408">
+      <circle
+         style="opacity:0.275;fill:url(#radialGradient4426);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4410"
+         cx="1188.5087"
+         cy="-794.14545"
+         r="142.90569" />
+      <circle
+         r="97.967461"
+         cy="-794.14545"
+         cx="1188.5087"
+         id="circle4412"
+         style="opacity:0.73699999;fill:url(#radialGradient4428);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         style="opacity:1;fill:url(#radialGradient4430);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4414"
+         cx="1188.5087"
+         cy="-794.14545"
+         r="48.76334" />
+    </g>
+    <g
+       transform="matrix(2.7249055,0,0,2.7249055,1852.8963,1889.8599)"
+       id="g4416">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:57.39287949px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-1492.3453"
+         y="-1705.7808"
+         id="text4418"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4420"
+           x="-1492.3453"
+           y="-1705.7808"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';fill:#ffffff">tendinitis</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.12915611px;line-height:125%;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Semi-Bold Italic';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-1448.9297"
+         y="-1683.2638"
+         id="text4422"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4424"
+           x="-1448.9297"
+           y="-1683.2638">champions</tspan></text>
     </g>
   </g>
 </svg>
