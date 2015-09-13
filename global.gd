@@ -5,24 +5,24 @@ var currentScene = null
  
 #just some data for our game.  It could be HPs, Alignment, Direction, etc...
 var PlayerName = "Mike"
-
+ 
 var blue_cont=0
 var red_cont=0
 var winner=""
 var time=0
  
 func setBlueTaps(value):
-	blue_cont=value
-
+        blue_cont=value
+ 
 func setTime(value):
-	time=value
-	
+        time=value
+       
 func setRedTaps(value):
-	red_cont=value
-
+        red_cont=value
+ 
 func setWinner(value):
-	winner=value
-	
+        winner=value
+       
 func _ready():
    #On load set the current scene to the last scene available
    currentScene = get_tree().get_root().get_child(get_tree().get_root().get_child_count() -1)

@@ -17,6 +17,7 @@ func _on_Button_pressed():
 	get_node("/root/global").setScene("res://new_scene.scn")
 
 
+
 func _on_Button_2_pressed():
 	get_node("/root/global").setScene("res://training_tpm_scene.scn")
 
