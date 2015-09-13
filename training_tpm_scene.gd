@@ -9,8 +9,19 @@ var taps = 0
 var time = 0
 var taps_in_second = 0
 
+var lbl_taps
+var lbl_time
+var lbl_tpm
+
+var timer
+
 func _ready():
 	# Initialization here
+	lbl_taps = get_node("label_taps")
+	lbl_time = get_node("label_time")
+	lbl_tpm = get_node("label_tpm")
+	
+	timer = get_node("Timer")
 	pass
 
 
@@ -32,6 +43,8 @@ func _on_Button_pressed():
 	taps_in_second += 1
 	var lbl_taps = get_node("label_taps")
 	lbl_taps.set_text(str("Taps: ",taps))
+	if(timer.get_time_left()==0):
+		timer.start()
 
 
 func _on_button_back_pressed():
@@ -43,15 +56,10 @@ func _on_button_reset_pressed():
 	time = 0
 	taps_in_second = 0
 	
-	var lbl_taps = get_node("label_taps")
 	lbl_taps.set_text("Taps: 0")
 	
-	var lbl_time = get_node("label_time")
 	lbl_time.set_text("Time: 0")
 	
-	var lbl_tpm = get_node("label_tpm")
 	lbl_tpm.set_text("Current TPM: 0")
 	
-	var timer = get_node("Timer")
 	timer.stop()
-	timer.start()
