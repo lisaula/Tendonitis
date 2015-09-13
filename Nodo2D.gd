@@ -6,6 +6,7 @@ extends Node2D
 # var b="textvar"
 var cont=25
 var n
+var winner=false
 func _ready():
 	n=get_node("HSlider")
 	set_fixed_process(true)
@@ -13,8 +14,12 @@ func _ready():
 func _fixed_process(delta):
 	if(cont==50):
 		print("blue won")
+		winner =true
 	if(cont==0):
 		print("Red won")
+		winner =true
+	if(winner):
+		self.get_tree().set_pause(true)
 
 
 func _on_TextureButton_pressed():
