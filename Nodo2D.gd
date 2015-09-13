@@ -20,6 +20,7 @@ func _fixed_process(delta):
 		winner =true
 	if(winner):
 		self.get_tree().set_pause(true)
+		get_node("/root/global").setScene("res://Statistics.scn")
 
 
 func _on_TextureButton_pressed():
