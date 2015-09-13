@@ -13,7 +13,8 @@ func _ready():
 
 
 func _on_Button_pressed():
-	get_node("/root/global").setScene("res://character_select/character_select_scene.scn")
+#	get_node("/root/global").setScene("res://character_select/character_select_scene.scn")
+	get_node("/root/global").setScene("res://new_scene.scn")
 
 
 func _on_Button_2_pressed():

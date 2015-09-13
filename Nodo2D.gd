@@ -16,21 +16,24 @@ var winner=false
 var winner2=false
 var text
 var text2
+var go
 func _ready():
+	go = get_node("go")
 	time_text = get_node("HUD/Time")
 	n=get_node("HSlider")
 	timer = get_node("Timer")
 	global=get_node("/root/global")
 	text = get_node("HUD/Label")
 	text2 = get_node("HUD/Label 2")
-	text2.set_text("Taps: 0")
-	text.set_text("Taps: 0")
-	time_text.set_text("Time: 0")
+	#text2.set_text("Taps: 0")
+	#text.set_text("Taps: 0")
+	#time_text.set_text("Time: 0")
 	set_fixed_process(true)
 	time =0
-	timer.start()
+	#timer.start()
 	
 func _fixed_process(delta):
+	go._fixed_process(delta)
 	if(cont==50):
 		print("blue won")
 		winner =true
