@@ -24,7 +24,7 @@ func _ready():
 		taps = global.blue_cont
 	else:
 		taps = global.red_cont
-	taps_text.set_text(str(taps))
+	taps_text.set_text(str("Total taps: ",taps))
 	time = global.time
 	tpm = (taps/time)*60
 	tpm_text.set_text(str("TPM: ",tpm))
