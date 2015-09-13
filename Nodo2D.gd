@@ -71,12 +71,18 @@ func _on_TextureButton_2_pressed():
 
 func _on_TouchScreenButton_pressed():
 	cont=cont+1
+	blue_taps=blue_taps+1
+	print(cont)
 	n.set_val(cont)
+	text.set_text(str("Taps: ",blue_taps))
 
 
 func _on_TouchScreenButton_2_pressed():
+	red_taps=red_taps+1
 	cont=cont-1
 	n.set_val(cont)
+	pass # replace with function body
+	text2.set_text(str("Taps: ",red_taps))
 
 
 func _on_Timer_timeout():
@@ -86,4 +92,5 @@ func _on_Timer_timeout():
 
 
 func _on_TextureButton_3_pressed():
-	get_node("/root/global").setScene("res://game_scene.scn")
+	global.setScene("res://game_scene.scn")
+	pass # replace with function body

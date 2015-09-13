@@ -36,3 +36,12 @@ func _on_BackMenu_pressed():
 
 func _on_TextureButton_pressed():
 	global.setScene("res://game_scene.scn")
+
+
+func _on_button_back_pressed():
+	global.setScene("res://mainmenu_scene.scn")
+	print("entro")
+
+
+func _on_button_restart_pressed():
+	global.setScene("res://game_scene.scn")
