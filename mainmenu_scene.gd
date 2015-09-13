@@ -14,3 +14,11 @@ func _ready():
 
 func _on_Button_pressed():
 	get_node("/root/global").setScene("res://game_scene.scn")
+
+
+func _on_Button_2_pressed():
+	get_node("/root/global").setScene("res://training_tpm_scene.scn")
+
+
+func _on_button_exit_pressed():
+	get_tree().quit()

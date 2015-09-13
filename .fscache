@@ -1,4 +1,4 @@
-::res://::1442128598
+::res://::1442128636
 Background.png::ImageTexture::1442128268::
 Blue1.png::ImageTexture::1442128268::
 Blue2.png::ImageTexture::1442128268::
@@ -10,7 +10,7 @@ Statistics.scn::PackedScene::1442128268::
 game_scene.scn::PackedScene::1442128569::
 global.gd::GDScript::1442128598::
 icon.png::ImageTexture::1442128268::
-mainmenu_scene.gd::GDScript::1442128554::
+mainmenu_scene.gd::GDScript::1442128636::
 mainmenu_scene.scn::PackedScene::1442128554::
 scene_a.gd::GDScript::1442128268::
 scene_a.scn::PackedScene::1442128268::
