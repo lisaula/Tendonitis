@@ -83,3 +83,7 @@ func _on_Timer_timeout():
 	time +=1
 	time_text.set_text(str("Time: ",time))
 	pass # replace with function body
+
+
+func _on_TextureButton_3_pressed():
+	get_node("/root/global").setScene("res://game_scene.scn")
